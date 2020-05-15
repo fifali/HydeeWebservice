@@ -1,1 +1,0 @@
-﻿<%@ WebService Language="C#" CodeBehind="WmsInterface.asmx.cs" Class="WmsInterface.WmsInterface"%>
