@@ -26,7 +26,7 @@ using System.Security.Cryptography;
 using System.Net;
 using System.Net.Sockets;
 using Oracle.ManagedDataAccess.Client;
-namespace WmsInterface
+namespace HydeeInterface
 {
     #region 初始设置
     [WebService(Namespace = "mia.hn.cn")]
@@ -37,10 +37,10 @@ namespace WmsInterface
      * [System.Web.Script.Services.ScriptService]
      */
     #endregion
-    public class WmsInterface : System.Web.Services.WebService
+    public class IHISService : System.Web.Services.WebService
     {
         #region Timer触发亮灯
-        //public WmsInterface()
+        //public HydeeInterface()
         //{
         //    //如果使用设计的组件，请取消注释以下行 
         //    InitializeComponent();

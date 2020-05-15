@@ -1,0 +1,7 @@
+E:\FromMia\WMS接口\WmsWebservice\WmsInterface\WmsInterface\bin\WmsInterface.dll.config
+E:\FromMia\WMS接口\WmsWebservice\WmsInterface\WmsInterface\bin\WmsInterface.dll
+E:\FromMia\WMS接口\WmsWebservice\WmsInterface\WmsInterface\bin\WmsInterface.pdb
+E:\FromMia\WMS接口\WmsWebservice\WmsInterface\WmsInterface\obj\Release\WmsInterface.dll
+E:\FromMia\WMS接口\WmsWebservice\WmsInterface\WmsInterface\obj\Release\WmsInterface.pdb
+E:\FromMia\WMS接口\WmsWebservice\WmsInterface\WmsInterface\obj\Release\WmsInterface.csprojResolveAssemblyReference.cache
+E:\FromMia\WMS接口\WmsWebservice\WmsInterface\WmsInterface\bin\Oracle.ManagedDataAccess.dll

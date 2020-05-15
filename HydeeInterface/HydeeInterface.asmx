@@ -1,1 +1,1 @@
-﻿<%@ WebService Language="C#" CodeBehind="HydeeInterface.asmx.cs" Class="WmsInterface.WmsInterface"%>
+﻿<%@ WebService Language="C#" CodeBehind="HydeeInterface.asmx.cs" Class="HydeeInterface.HydeeInterface"%>

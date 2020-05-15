@@ -1,0 +1,11 @@
+D:\海典项目\国药\接口代码\HydeeWebservice\WmsInterface\bin\WmsInterface.dll.config
+D:\海典项目\国药\接口代码\HydeeWebservice\WmsInterface\bin\WmsInterface.dll
+D:\海典项目\国药\接口代码\HydeeWebservice\WmsInterface\bin\WmsInterface.pdb
+D:\海典项目\国药\接口代码\HydeeWebservice\WmsInterface\obj\Debug\WmsInterface.dll
+D:\海典项目\国药\接口代码\HydeeWebservice\WmsInterface\obj\Debug\WmsInterface.pdb
+D:\海典项目\国药\接口代码\HydeeWebservice\WmsInterface\obj\Debug\HydeeInterface.csprojResolveAssemblyReference.cache
+D:\海典项目\国药\接口代码\HydeeWebservice\HydeeInterface\bin\WmsInterface.dll.config
+D:\海典项目\国药\接口代码\HydeeWebservice\HydeeInterface\bin\WmsInterface.dll
+D:\海典项目\国药\接口代码\HydeeWebservice\HydeeInterface\bin\WmsInterface.pdb
+D:\海典项目\国药\接口代码\HydeeWebservice\HydeeInterface\obj\Debug\WmsInterface.dll
+D:\海典项目\国药\接口代码\HydeeWebservice\HydeeInterface\obj\Debug\WmsInterface.pdb
