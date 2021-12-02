@@ -1,0 +1,11 @@
+D:\海典项目\国药\接口代码\HydeeWebservice\HydeeInterface\bin\HydeeInterface.dll.config
+D:\海典项目\国药\接口代码\HydeeWebservice\HydeeInterface\bin\HydeeInterface.dll
+D:\海典项目\国药\接口代码\HydeeWebservice\HydeeInterface\bin\HydeeInterface.pdb
+D:\海典项目\国药\接口代码\HydeeWebservice\HydeeInterface\obj\Release\HydeeInterface.dll
+D:\海典项目\国药\接口代码\HydeeWebservice\HydeeInterface\obj\Release\HydeeInterface.pdb
+D:\海典项目\国药\接口代码\HydeeWebservice\HydeeInterface\bin\BouncyCastle.Crypto.dll
+D:\海典项目\国药\接口代码\HydeeWebservice\HydeeInterface\bin\MiaInterface.dll
+D:\海典项目\国药\接口代码\HydeeWebservice\HydeeInterface\bin\Newtonsoft.Json.Net35.dll
+D:\海典项目\国药\接口代码\HydeeWebservice\HydeeInterface\bin\swiftpass.utils.dll
+D:\海典项目\国药\接口代码\HydeeWebservice\HydeeInterface\bin\swiftpass.utils.pdb
+D:\海典项目\国药\接口代码\HydeeWebservice\HydeeInterface\bin\Oracle.ManagedDataAccess.dll

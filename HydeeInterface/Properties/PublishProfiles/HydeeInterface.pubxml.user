@@ -6,17 +6,41 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>E:\FromMia\WMS接口\发布</_PublishTargetUrl>
+    <_PublishTargetUrl>D:\海典项目\国药\接口代码\HydeeWebservice\发布</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="bin/BouncyCastle.Crypto.dll">
+      <publishTime>01/09/2018 15:02:34</publishTime>
+    </File>
+    <File Include="bin/HydeeInterface.dll">
+      <publishTime>07/01/2020 17:07:02</publishTime>
+    </File>
+    <File Include="bin/MiaInterface.dll">
+      <publishTime>04/28/2019 17:45:19</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.Net35.dll">
+      <publishTime>03/08/2017 17:40:43</publishTime>
+    </File>
     <File Include="bin/Oracle.ManagedDataAccess.dll">
-      <publishTime>06/25/2016 14:37:44</publishTime>
+      <publishTime>03/26/2020 19:11:58</publishTime>
+    </File>
+    <File Include="bin/swiftpass.utils.dll">
+      <publishTime>06/12/2020 13:35:50</publishTime>
     </File>
     <File Include="bin/WmsInterface.dll">
       <publishTime>06/28/2016 14:23:08</publishTime>
     </File>
+    <File Include="HydeeInterface.asmx">
+      <publishTime>05/15/2020 16:11:46</publishTime>
+    </File>
+    <File Include="IHISService.asmx">
+      <publishTime>05/15/2020 16:41:06</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>07/01/2020 17:02:26</publishTime>
+    </File>
     <File Include="Web.config">
-      <publishTime>06/27/2016 13:21:50</publishTime>
+      <publishTime>07/01/2020 17:02:27</publishTime>
     </File>
     <File Include="WmsInterface.asmx">
       <publishTime>07/21/2015 17:48:02</publishTime>

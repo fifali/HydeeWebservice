@@ -10,9 +10,9 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WmsInterface</RootNamespace>
-    <AssemblyName>WmsInterface</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <RootNamespace>HydeeInterface</RootNamespace>
+    <AssemblyName>HydeeInterface</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -34,6 +34,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -42,15 +43,31 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Oracle.ManagedDataAccess">
-      <HintPath>..\..\..\WmsSoft\WmsServer\WmsServer\Oracle.ManagedDataAccess.dll</HintPath>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>..\..\HydeeInterface - http\Console\Console\bin\Debug\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="MiaInterface">
+      <HintPath>..\..\HydeeInterface - http\Console\Console\bin\Debug\MiaInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Net35">
+      <HintPath>..\..\HydeeInterface - http\Console\Console\bin\Debug\Newtonsoft.Json.Net35.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.19.1, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.19.7.0\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="swiftpass.utils">
+      <HintPath>..\..\..\直营平台接口清单收集\直营平台接口清单收集\浙江振和-浙江健一行外部接口文档\C#版本demo——小额支付（付款码支付)_20190702163920 (2)\C#版本demo——小额支付（付款码支付)\WFTpayInterface\swiftpass.utils\bin\Debug\swiftpass.utils.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -64,22 +81,30 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="HydeeInterface.asmx" />
+    <Content Include="IHISService.asmx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HydeeInterface.asmx.cs">
-      <DependentUpon>HydeeInterface.asmx</DependentUpon>
+    <Compile Include="IHISService.asmx.cs">
+      <DependentUpon>IHISService.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="公用类\Enum.cs" />
+    <Compile Include="公用类\ObjectList.cs" />
+    <Compile Include="公用类\PbulicDao.cs" />
+    <Compile Include="公用类\PublicBll.cs" />
+    <Compile Include="公用类\PublicClass.cs" />
+    <Compile Include="公用类\StringCompute.cs" />
+    <Compile Include="实体类\JsonObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\HydeeInterface.pubxml" />
   </ItemGroup>
   <PropertyGroup>
@@ -104,7 +129,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>50561</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost/WmsInterface</IISUrl>
+          <IISUrl>http://localhost/HydeeInterface</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
