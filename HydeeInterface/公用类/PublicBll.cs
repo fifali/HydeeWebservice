@@ -11,7 +11,7 @@ using Newtonsoft.Json.Linq;
 using System.Data;  
 using swiftpass.utils;
 using System.Collections; 
-
+  
 namespace IHISService
 {
     public class PublicBll
